@@ -51,3 +51,5 @@
     <li>Russian- native</li>
     <li>English- A2</li>
   </ol>
+  
+  <hr>
