@@ -14,7 +14,7 @@
   
   <h2> About Me </h2>
   
-  <p> I am Aleksey Platonov, I am 35 years old, currently living in Poland. I started studying front-end a few months ago, I really want to learn this business :) Before that, I lived in the Republic of Belarus in the City of Grodno, worked at a furniture factory.</p>
+  <p> I am Aleksey Platonov, I am 35 years old, currently living in Poland.<br> I started studying front-end a few months ago, I really want to learn this business :) Before that,<br> I lived in the Republic of Belarus in the City of Grodno, worked at a furniture factory.</p>
   
   <h2> Skills </h2>
   
@@ -51,5 +51,9 @@
     <li>Russian- native</li>
     <li>English- A2</li>
   </ol>
+  
+  <hr>
+  
+  <h2>DOCUMENTS:</h2>
   
   <hr>
