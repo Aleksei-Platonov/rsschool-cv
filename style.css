@@ -1,3 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-background color: red;
+    background-color: #d6d6d6;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .header {
+    border: 1px solid grey;
+}
+
+.main {
+    border: 1px solid grey;
+} */
+
+.avatar {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+    margin: 20px;
+
+}
+
+.footer {
+    border: 1px solid grey;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    border-radius: 10px;
+    background-color: rgb(228, 227, 227);
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.nav-link:active {
+    color: blue;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    color: orange;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.my-contacts {
+    padding: 10px;
+}
+
+.my-contacts li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.my-contacts a {
+    padding: 10px;
+    line-height: 30px;
+    text-decoration: none;
+    color: rgb(0, 53, 13);
+    font-size: 15px;
+    transition: .5s;
+}
+
+.my-contacts a:hover {
+    text-decoration: underline;
+    color: orange;
+    font-size: 18px;
+}
+
+.my-contacts a:active {
+    color: blue;
+}
+
+#summary p {
+    font-size: 18px;
+    padding: 0 ;
+    line-height: 1.5;
+    padding: 10px;
+
+}
+
+.skils-list {
+    padding: 0;
+}
+
+.skils-list li {
+    list-style: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#code {
+    border-radius: 10px;
+    background-color:  rgb(228, 227, 227);
+    padding: 10;
+}
+
+#courses ul {
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#projects a {
+    padding: 10px;
+    line-height: 30px;
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    transition: .5s;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+    color: orange;
+    font-size: 25px;
+}
+
+#education p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#languages p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.container-footer  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 50%;
+}
+.container-footer a  {
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.img {
+    width: 50px;
+    transition: .8s;
+}
+
+.img:hover {
+    width: 80px;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
 }

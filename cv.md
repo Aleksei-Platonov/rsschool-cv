@@ -4,12 +4,12 @@
 
 <h2> Contact: </h2>
 
-<ul>
-  <li> Phone: +48519437192</li>
-  <li> Email: platonov.fishman1986@gmail.com</li>
-  <li> Instagram: barazdaa</li>
-  <li> GitHub: aleksei-platonov</li>
- </ul>
+  <ul>
+    <li> Phone: +48519437192</li>
+    <li> Email: platonov.fishman1986@gmail.com</li>
+    <li> Instagram: barazdaa</li>
+    <li> GitHub: aleksei-platonov</li>
+  </ul>
   
   
   <h2> About Me </h2>
