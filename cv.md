@@ -1,20 +1,19 @@
 <h1> Aleksei Platonov </h1>
 
-<hr>
 
-<h2> Contact: </h2>
+<h2> Contacts: </h2>
 
   <ul>
     <li> Phone: +48519437192</li>
     <li> Email: platonov.fishman1986@gmail.com</li>
-    <li> Instagram: barazdaa</li>
+    <li> Instagram: @barazdaa</li>
     <li> GitHub: aleksei-platonov</li>
   </ul>
   
   
-  <h2> About Me </h2>
+  <h2> Summary </h2>
   
-  <p> I am Aleksey Platonov, I am 35 years old, currently living in Poland.<br> I started studying front-end a few months ago, I really want to learn this business :) Before that,<br> I lived in the Republic of Belarus in the City of Grodno, worked at a furniture factory.</p>
+  <p> I am Aleksey Platonov, I am 35 years old, currently living in Poland. I started studying front-end a few months ago, I really want to learn this business :). I lived Republic of Belarus in the City of Grodno, worked at a furniture factory.</p>
   
   <h2> Skills </h2>
   
@@ -22,38 +21,44 @@
     <li> HTML </li>
     <li> CSS </li>
     <li> Git, Git Hub </li>
-    <li> Adobe Priemer </li>
+    <li> Adobe Premiere </li>
   </ol>
   
   
-  <h2> My code: </h2>
+  <h2> Code </h2>
   
   <p>
-      <img src="20220319_104332.jpg" width="150" alt="это моя фотка">
-
-    <h1>Bagira</h1>
-
-    <p><strong>Черный хвост</strong>, длина 20 см</p>
-
-    <p><strong>черные лапки</strong>, не царапаю</p>
+      .my-contacts a:hover {
+      text-decoration: underline;
+      }
+      .my-contacts a:active {
+      color: blue;
+      }
   </p>
   
-  <h2> My Schools: </h2>
+  <h2> Courses </h2>
   
   <ul>
-    <li>Technollogy colledge</li>
-    <li>RSschool</li>
+    <li>RSschool stage#0</li>
+    <li>goITschool for beginer</li>
+    <li>Result.School-HTML&CSS</li>
   </ul>
+
+  <h2>Projects</h2>
+
+  <p>My projects in GitHub</p>
+
+  <h2>Education</h2>
+
+  <p>Technical Kollege Grodno</p>
   
-  <h2> Language </h2>
+  <h2> Languages </h2>
   
-  <ol>
-    <li>Russian- native</li>
-    <li>English- A2</li>
-  </ol>
+  <p>English:А2 (Elementary)</p>
   
   <hr>
+
+  <p>my GitHub</p>
+  <p>rsschool</p>
+  <p>year</p>
   
-  <h2>DOCUMENTS:</h2>
-  
-  <hr>

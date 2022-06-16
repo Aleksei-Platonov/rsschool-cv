@@ -130,9 +130,9 @@ body {
 }
 
 #courses ul {
-    list-style: none;
     font-size: 18px;
     padding: 10px;
+    margin-left: 20px;
 }
 
 #projects a {
