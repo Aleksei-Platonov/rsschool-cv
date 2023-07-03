@@ -27,16 +27,11 @@
 
 ## Project
 ### todo-list
-- 2023 my project
+- 2023 todo-list, my project https://aleksei-platonov.github.io/todo-rm-online/
 
-### Название проекта
-- (годы) Описание проекта и ваша роль в нем
+### birthday
+- 2022 birthday congratulations generator
 
-## Сертификаты
-- Название сертификата, [ссылка на сертификат](ссылка)
-- Название сертификата, [ссылка на сертификат](ссылка)
-
-## Дополнительная информация
-- (годы) Волонтёрство или участие в общественных организациях
-- Языки: Язык 1 (уровень), Язык 2 (уровень)
+## Additional Information 
+- Languages: Russian - native, Polish - B1, English - A2
 
