@@ -11,7 +11,7 @@
     <header>
         <div class="name">
             <h1>Aleksei Platonov</h1>
-            <img src="/img/20200321_155527.jpg" alt="avatar">
+            <img src="/rsschool-cv/img/20200321_155527.jpg" alt="avatar">
         </div>
         <nav class="navigation">
             <div class="navigation__list">
@@ -33,7 +33,7 @@
                 <h2>Contact</h2>
                 <div class="contact__list">
                     <ul>
-                        <li>Tel: <a href="#" placeholder="tel"></a>519-437-192</li>
+                        <li>Tel: <a href="519-437-192">519-437-192</a></li>
                         <li>Mail: <a href="platonov.fishman1986@gmail.com">platonov.fishman1986@gmail.com</a></li>
                     </ul>
                 </div>
@@ -100,11 +100,11 @@
                     const btn = document.querySelector('.hero__button');
                     const modal = document.querySelector('.modal');
                     
-                    btn.addEventListener('click', () => {
+                    btn.addEventListener('click', () =&gt; {
                         modal.classList.add('modal_open');
                     });
                     
-                    modal.addEventListener('click', (event) => {
+                    modal.addEventListener('click', (event) =&gt; {
                         if (event.target === modal || event.target.closest('.modal__close')) {
                             modal.classList.remove('modal_open');
                         }
@@ -116,11 +116,11 @@
     </main>
 
     <footer class="footer">
-        <a href="https://github.com/Aleksei-Platonov"><img src="../img/GH.jpg" alt="github" class="logo__github"></a>
+        <a href="https://github.com/Aleksei-Platonov"><img src="/rsschool-cv/img/GH.jpg" alt="github" class="logo__github"></a>
 
         <p>2023</p>
 
-        <a href="https://rs.school/js/"><img src="../img/rs_school_js.svg" class="course__logo" alt="course logo"></a>
+        <a href="https://rs.school/js/"><img src="/rsschool-cv/img/rs_school_js.svg" class="course__logo" alt="course logo"></a>
     </footer>
 </body>
 </html>
