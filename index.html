@@ -75,12 +75,12 @@
             <div class="project">
                 <h2>Project</h2>
                 <ul class="project__list">
-                    <h3>todo-list</h3>
+                    <h3>Work Shop</h3>
                     <li>
-                    2023 todo-list, my project <a href="https://aleksei-platonov.github.io/todo-rm-online/">https://aleksei-platonov.github.io/todo-rm-online/</a></li>
+                    2023 work Shop, my project: <a href="https://aleksei-platonov.github.io/workShop/">work Shop</a></li>
                     <li>
-                    <h3>birthday</h3>
-                    2022 birthday congratulations generator <a href="https://aleksei-platonov.github.io/birthday/">https://aleksei-platonov.github.io/birthday/</a></li>
+                    <h3>Birthday</h3>
+                    2022 birthday congratulations generator: <a href="https://aleksei-platonov.github.io/birthday/">Birthday Generator</a></li>
                 </ul>
             </div>
 
@@ -92,6 +92,24 @@
                     <li>Polish - B1</li>
                     <li>English - A2</li>
                 </ul>
+            </div>
+
+            <div class="code">
+                <h2>Code</h2>
+                <code>
+                    const btn = document.querySelector('.hero__button');
+                    const modal = document.querySelector('.modal');
+                    
+                    btn.addEventListener('click', () => {
+                        modal.classList.add('modal_open');
+                    });
+                    
+                    modal.addEventListener('click', (event) => {
+                        if (event.target === modal || event.target.closest('.modal__close')) {
+                            modal.classList.remove('modal_open');
+                        }
+                    })
+                </code>
             </div>
             
         </div>
